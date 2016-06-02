@@ -1,0 +1,14 @@
+.logotipo {
+    margin-top: -1em;
+}
+.navbar {
+    background-color: white;
+    border-bottom-color: darkblue;
+    border-bottom-width: 10px;
+}
+.bluetec {
+    color: darkblue;
+}
+a p{
+    color: darkslategrey;
+}
