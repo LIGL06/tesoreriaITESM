@@ -1,18 +1,1 @@
-<<<<<<< HEAD
-.logotipo{margin-top: -1em;}.navbar{background-color: white; border-bottom-color: darkblue; border-bottom-width: 10px;}.bluetec{color: white;}.big{font-size: 2.5em;}.no-margin-top{margin-top: -.5em;}.margin-top{margin-top: .5em;}a p{color: darkslategrey;}h3 small{color:rgba(255, 255, 255, 0.7);}.bg-ok{background-image:url("https://res.cloudinary.com/hammock-software/image/upload/q_50/v1465326438/bg_faqlo9.jpg"); background-position:center,center; background-size: 100% auto; background-repeat:no-repeat, no-repeat;}.jumbotron{background-color: rgba(0, 44, 113, 0.5);}.blue{color:blue;}
-=======
-.logotipo {
-    margin-top: -1em;
-}
-.navbar {
-    background-color: white;
-    border-bottom-color: darkblue;
-    border-bottom-width: 10px;
-}
-.bluetec {
-    color: darkblue;
-}
-a p{
-    color: darkslategrey;
-}
->>>>>>> 435553cd7fbc3edcced316a97fa1601e414cbc32
+.logotipo{margin-top: -1em;}.navbar{background-color: white; border-bottom-color: darkblue; border-bottom-width: 10px;}.bluetec{color: white;}.big{font-size: 2.5em;}.no-margin-top{margin-top: -.5em;}.margin-top{margin-top: .5em;}a p{color: darkslategrey;}h3 small{color:rgba(255, 255, 255, 0.7);}.bg-ok{background-image:url("https://res.cloudinary.com/hammock-software/image/upload/q_50/v1465326438/bg_faqlo9.jpg"); background-position:center,center; background-size: auto 100%; background-repeat:no-repeat, no-repeat;}.jumbotron{background-color: rgba(0, 0, 0, 0.7);}.blue{color:blue;}

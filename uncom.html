@@ -31,7 +31,39 @@
 </head>
 
 <body class="bg-ok">
-    
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand">ITESM Campus Tampico</a>
+      </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opciones y Servicios<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.tam.itesm.mx/inscripcion/14/" target="_blank">Portal de Inscripciones</a></li>
+              <li><a href="http://www.tam.itesm.mx/tesoreria/docs/TAM.NI.AD16.png" target="_blank">Tablas de Nuevo Ingreso</a></li>
+              <li><a href="http://www.tam.itesm.mx/tesoreria/docs/TAM.RI.AD16.png" target="_blank">Tablas de Reingreso</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="http://www.tam.itesm.mx/tesoreria/pagoenlinea.html" target="_blank">Pago en línea</a></li>
+              <li><a href="http://csa.itesm.mx:8080/FichaDePagoCol/index.jsp" target="_blank">Imprimir fichas de pago</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="http://www.tam.itesm.mx/tesoreria/edocuenta.html" target="_blank">Estado de cuenta</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>
     <section>
         <div class="container jumbotron">
             <div class="row">
@@ -40,12 +72,6 @@
                       <a class="btn btn-default col-xs-12 col-md-8" href="/inscripcion/14" target="_blank">
                           <p class="margin-top pull-left"><i class="fa fa-calendar-o blue"></i> Portal de Inscripciones</p>
                       </a>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <h3 class="bluetec big">Verano <br><small>Junio-Julio 2016</small></h4>
-                    <a class="btn btn-default col-xs-12 col-md-8" href="/verano" target="_blank">
-                        <p class="margin-top pull-left"><i class="fa fa-info-circle blue"></i> Información</p>
-                    </a>
                 </div>
               </div>
             <div class="row">
@@ -56,9 +82,6 @@
                       </a>
                       <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="/tesoreria/docs/TAM.RI.AD16.png" target="_blank">
                           <p class="margin-top pull-left"><i class="fa fa-external-link blue"></i> Reingreso</p>
-                      </a>
-                      <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="/tesoreria/cargoautomatico.html" target="_blank">
-                          <p class="margin-top pull-left"><i class="fa fa-cc-stripe blue"></i> Cargo Automático</p>
                       </a>
                 </div>
                 <div class="col-xs-12 col-md-6">
@@ -72,19 +95,28 @@
                     <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="/tesoreria/pagoenlinea.html" target="_blank">
                         <p class="margin-top pull-left"><i class="fa fa-chrome blue"></i> Pago en línea</p>
                     </a>
+                    <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="/tesoreria/cargoautomatico.html" target="_blank">
+                          <p class="margin-top pull-left"><i class="fa fa-cc-stripe blue"></i> Cargo Automático</p>
+                      </a>
                 </div>
             </div>
             <div class="row">
               <div class="col-xs-12 col-md-6">
                 <h3 class="bluetec big">Servicios <br><small>Portal Tampico</small></h3>
                   <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="http://csa.itesm.mx:8080/FichaDePagoCol/index.jsp" target="_blank">
-                      <p class="margin-top pull-left"><i class="fa fa-facebook blue"></i> Imprimir fichas de Pago</p>
+                      <p class="margin-top pull-left"><i class="fa fa-money blue"></i> Imprimir fichas de Pago</p>
                   </a>
                   <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="/tesoreria/edocuenta.html" target="_blank">
                       <p class="margin-top pull-left"><i class="fa fa-graduation-cap blue"></i> Estado de cuenta</p>
                   </a>
                   <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="/tesoreria/facturacion.html" target="_blank">
                       <p class="margin-top pull-left"><i class="fa fa-barcode blue"></i> Emisión de Facturas</p>
+                  </a>
+                  <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="http://aplicaciones.tam.itesm.mx/cancelaciones/" target="_blank">
+                      <p class="margin-top pull-left"><i class="fa fa-hand-paper-o blue"></i> Cancelación de Seguros</p>
+                  </a>
+                  <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="http://aplicaciones.tam.itesm.mx/expresotec/" target="_blank">
+                      <img src="images/expresosicon.png" class="img-responsive col-md-8 col-md-offset-2">
                   </a>
                   </div>
                   <div class="col-xs-12 col-md-6">
@@ -93,12 +125,6 @@
                   </a>
                   <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="https://www.segurosmnyl.com.mx/itesm/login.aspx" target="_blank">
                       <p class="margin-top pull-left"><i class="fa fa-user-md blue"></i> Seguro de gastos médicos</p>
-                  </a>
-                  <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="http://aplicaciones.tam.itesm.mx/cancelaciones/" target="_blank">
-                      <p class="margin-top pull-left"><i class="fa fa-twitter blue"></i> Cancelación de Seguros</p>
-                  </a>
-                  <a class="btn btn-default col-xs-12 col-md-8 margin-top" href="http://aplicaciones.tam.itesm.mx/expresotec/" target="_blank">
-                      <img src="images/expresosicon.png" class="img-responsive col-md-8 col-md-offset-2">
                   </a>
               </div>
             </div>
